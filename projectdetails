@@ -1,0 +1,39 @@
+# Expense Tracker - Implementation Plan
+
+## Project Overview
+A complete expense tracking web application for B.Tech minor project submission.
+
+## Files to Create (Max 8 files)
+1. **index.html** - Main application structure with forms and display areas
+2. **style.css** - Modern, professional styling with responsive design
+3. **script.js** - Core JavaScript logic for transactions, calculations, and UI
+4. **chart.js** - Simple chart visualization for expense categories
+
+## Features Implementation
+### Core Features (MVP)
+- ✅ Add income transactions with amount, category, description, date
+- ✅ Add expense transactions with amount, category, description, date
+- ✅ Display current balance (total income - total expenses)
+- ✅ Show transaction history list
+- ✅ Delete transactions
+- ✅ Filter by transaction type (all/income/expense)
+- ✅ Category-wise breakdown
+- ✅ Data persistence using localStorage
+- ✅ Responsive mobile-first design
+
+### Categories
+**Income:** Salary, Freelance, Investment, Gift, Other
+**Expense:** Food, Transport, Shopping, Bills, Entertainment, Health, Education, Other
+
+## Technical Stack
+- HTML5 for structure
+- CSS3 for styling (gradients, animations, flexbox/grid)
+- Vanilla JavaScript for logic
+- localStorage for data persistence
+- No external dependencies
+
+## File Relationships
+- index.html imports style.css and script.js
+- script.js handles all business logic and DOM manipulation
+- chart.js creates visual representation of data
+- All data stored in browser's localStorage
